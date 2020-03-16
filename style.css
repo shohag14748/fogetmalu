@@ -48,6 +48,7 @@ header{
     font-size: 14px;
     color: #f04780;
 }
+.main-menu ul li a:hover,
 .main-menu ul li a.active{
     color: #64cbe6;
 }
