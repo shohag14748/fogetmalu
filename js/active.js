@@ -17,4 +17,25 @@ $('.slider-inner').owlCarousel({
         }
     }
 })
+    
+
+$('.review-slider').owlCarousel({
+    loop:true,
+    nav:false,
+    margin:30,
+    autoHeight:true,
+    dotsEach:1,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})    
+    
 })
