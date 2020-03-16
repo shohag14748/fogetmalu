@@ -178,6 +178,7 @@ header .header-border img {
     background-repeat: no-repeat;
     background-size:auto 100%;
     background-position: center right 60vw;
+    background: none;
 }
 
 .aboutus .wrapper .video-img {
