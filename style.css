@@ -163,7 +163,7 @@ header .header-border img {
     line-height: 0;
     position: absolute;
     width: 100%;
-    bottom: 0px;
+    bottom: -2px;
     z-index: 999;
     pointer-events: none;
 }
@@ -510,6 +510,9 @@ header .header-border img {
 .information .overlay .content p{
     font-size: 24px;
     color: #fff;
+}
+.information .overlay .content ul{
+    padding-left: 0;
 }
 .information .overlay .content li{
     font-size: 24px;
