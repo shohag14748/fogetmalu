@@ -36,6 +36,24 @@ $('.review-slider').owlCarousel({
             items:3
         }
     }
+}) 
+$('.feed-slider').owlCarousel({
+    loop:true,
+    nav:false,
+    margin:0,
+    autoHeight:true,
+    dotsEach:1,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:4
+        },
+        1200:{
+            items:6
+        }
+    }
 })    
     
 })
