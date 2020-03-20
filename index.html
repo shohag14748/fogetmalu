@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
 
 
@@ -44,11 +45,11 @@
             <div class="slider-item slider-img-1">
                 <div class="container">
                     <div class="content">
-                        <h3>Welcome To</h3>
-                        <h1>SCREAM!</h1>
-                        <h4>World Best <br>
+                        <h3 class="animated fadeInUp">Welcome To</h3>
+                        <h1 class="animated fadeInUp">SCREAM!</h1>
+                        <h4 class="animated fadeInUp">World Best <br>
                             Jet Boat And Thrill Ride</h4>
-                        <a href="">Contact Now</a>
+                        <a class="animated fadeInUp" href="">Contact Now</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +57,7 @@
                 <div class="container">
                     <div class="content">
                         <h3>Welcome To</h3>
-                        <h1>SCREAM!</h1>
+                        <h1 >SCREAM!</h1>
                         <h4>World Best <br>
                             Jet Boat And Thrill Ride</h4>
                         <a href="">Contact Now</a>
@@ -67,7 +68,7 @@
                 <div class="container">
                     <div class="content">
                         <h3>Welcome To</h3>
-                        <h1>SCREAM!</h1>
+                        <h1 >SCREAM!</h1>
                         <h4>World Best <br>
                             Jet Boat And Thrill Ride</h4>
                         <a href="">Contact Now</a>
@@ -83,7 +84,7 @@
         <div class="wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow slideInLeft"  data-wow-duration="1s" >
                         <div class="video-img" uk-lightbox>
                             <img src="im/img/About-video-img.jpg" alt="">
                             <div class="img-overlay">
@@ -91,17 +92,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow slideInRight"  data-wow-duration="1s">
                         <div class="about-description">
-                            <h2>About</h2>
+                            <!--                            <h2>About</h2>-->
                             <p>Simply the most exciting experience on the Costa Del Sol. Our state of the art jet boat has been designed with over 500hp and hi-tech Hamilton Jets to deliver a once in a lifetime thrill ride. It is high adrenaline 360 spins and
-                            only Jet Boat in the WORLD that can SUBMARINE.
+                                only Jet Boat in the WORLD that can SUBMARINE.
                                 <br>
                                 <br>
                                 Safety is absolutely paramount and our jet boat is UNSINKABLE! Though speeds of over 50mph.
-                                
-                                
-                                </p>
+                            </p>
                             <a href="#">Read More</a>
                         </div>
                     </div>
@@ -122,7 +121,7 @@
                     <p>Our Customer gived review after ride. Lets enjoy the ride and give your feeback too.</p>
                 </div>
 
-                <div class=" owl-carousel review-slider">
+                <div class=" owl-carousel review-slider wow bounceInUp"  data-wow-duration="1s">
                     <div class="item">
                         <div class="coment-box">
                             <p><i class="icofont-quote-left"></i>There. Are. No. Words!! This
@@ -223,7 +222,42 @@
 
     <section class="information">
         <div class="container-fluid">
-            <div class="row">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 wow bounceInLeft"  data-wow-duration="1s">
+                        <div class="content">
+                            <img src="im/img/boat-section1.jpg" alt="">
+                            <div class="boat-overlay">
+                                <div class="text-content">
+                                    <h4>High Adrinial 360 Spin</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInUp"  data-wow-duration="1s">
+                        <div class="content">
+                            <img src="im/img/boat-section2.jpg" alt="">
+                            <div class="boat-overlay">
+                                <div class="text-content">
+                                    <h4>The only jet boat in the world that can submarine</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInRight"  data-wow-duration="1s">
+                        <div class="content">
+                            <img src="im/img/boat-section3.jpg" alt="">
+                            <div class="boat-overlay">
+                                <div class="text-content">
+                                    <h4>Speed of over 50MPH</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
                 <div class="col-md-6">
                     <div class="content left-content">
                         <img src="im/img/information-1.jpg" alt="">
@@ -252,11 +286,15 @@
                             </div>
                         </div>
                     </div>
+-->
+                    <!--                </div>-->
                 </div>
-            </div>
+                <!--
             <div class="middle-content">
                 <img src="im/img/information-middle-bg.png" alt="">
                 <p>April - September <span>from 10am – 7 days</span> a week</p>
+            </div>
+-->
             </div>
         </div>
         <div class="border-img">
@@ -268,48 +306,29 @@
             <div class="sction-title">
                 <h2>Gallery</h2>
             </div>
-<!--
-            <div class="row">
-                <div class="col-md-6 big" uk-lightbox>
-                    <a href="im/img/galary-img1.jpg"><img src="im/img/galary-img1.jpg" alt=""></a>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6"><a href="im/img/galary-img2.jpg"><img src="im/img/galary-img2.jpg" alt=""></a></div>
-                        <div class="col-md-6"><a href="im/img/galary-img3.jpg"><img src="im/img/galary-img3.jpg" alt=""></a></div>
-                        <div class="col-md-6"><a href="im/img/galary-img4.jpg"><img src="im/img/galary-img4.jpg" alt=""></a></div>
-                        <div class="col-md-6"><a href="im/img/galary-img5.jpg"><img src="im/img/galary-img5.jpg" alt=""></a></div>
-                    </div>
-                </div>
-                <div class="col-md-3"><a href="im/img/galary-img2.jpg"><img src="im/img/galary-img2.jpg" alt=""></a></div>
-                <div class="col-md-3"><a href="im/img/galary-img3.jpg"><img src="im/img/galary-img3.jpg" alt=""></a></div>
-                <div class="col-md-3"><a href="im/img/galary-img4.jpg"><img src="im/img/galary-img4.jpg" alt=""></a></div>
-                <div class="col-md-3"><a href="im/img/galary-img5.jpg"><img src="im/img/galary-img5.jpg" alt=""></a></div>
-            </div>
--->
             <div class="row">
                 <div class="col-md-6 big">
-                    <img src="im/img/galary-img1.jpg" alt="">
+                    <img class=" wow slideInLeft"  data-wow-duration="1s" src="im/img/galary-img1.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-6"><img src="im/img/galary-img2.jpg" alt=""></div>
-                        <div class="col-md-6"><img src="im/img/galary-img3.jpg" alt=""></div>
-                        <div class="col-md-6"><img src="im/img/galary-img4.jpg" alt=""></div>
-                        <div class="col-md-6"><img src="im/img/galary-img5.jpg" alt=""></div>
+                        <div class="col-md-6"><img class=" wow slideInRight"  data-wow-duration="1s" src="im/img/galary-img2.jpg" alt=""></div>
+                        <div class="col-md-6"><img class=" wow slideInRight"  data-wow-duration="1s"  src="im/img/galary-img3.jpg" alt=""></div>
+                        <div class="col-md-6"><img class=" wow slideInRight"  data-wow-duration="1s"  src="im/img/galary-img4.jpg" alt=""></div>
+                        <div class="col-md-6"><img class=" wow slideInRight"  data-wow-duration="1s"  src="im/img/galary-img5.jpg" alt=""></div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <img src="im/img/galary-img1.jpg" alt="">
+                    <img class=" wow slideInLeft"  data-wow-duration="1s"  src="im/img/galary-img1.jpg" alt="">
                 </div>
                 <div class="col-md-3">
-                    <img src="im/img/galary-img2.jpg" alt="">
+                    <img class=" wow slideInLeft"  data-wow-duration="1s" src="im/img/galary-img2.jpg" alt="">
                 </div>
                 <div class="col-md-3">
-                    <img src="im/img/galary-img3.jpg" alt="">
+                    <img class=" wow slideInRight"  data-wow-duration="1s" src="im/img/galary-img3.jpg" alt="">
                 </div>
                 <div class="col-md-3">
-                    <img src="im/img/galary-img4.jpg" alt="">
+                    <img class=" wow slideInRight"  data-wow-duration="1s" src="im/img/galary-img4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -319,12 +338,27 @@
     </section>
 
     <section class="kids">
-        <div class="container">
+        <div class="kids-announcement">
+            <div class="container">
+
+                <div class="kids-special">
+                    <div class="description">
+                        <h4>Over 14's only</h4>
+                        <p>Lower speed kids rides at least once a day,ask our staff or contact us for information.</p>
+                        <p><span>April - September from 10am – 7 days a week</span></p>
+                    </div>
+                    <div class="kids-img">
+                        <img class=" wow bounceIn"  data-wow-duration="1s"  src="im/img/kids-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container section-width">
             <div class="sction-title">
-                <h2>Kid's Special</h2>
+                <h2>Special Rides</h2>
             </div>
             <div class="row">
-                <div class="col-md-4 align-self-end">
+                <div class="col-md-4 align-self-end wow slideInLeft"  data-wow-duration="1s" >
                     <div class="content" uk-lightbox>
                         <img src="im/img/kids-item3.png" alt="">
                         <div class="overlay">
@@ -334,7 +368,7 @@
                     <h4>Ride2</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInUp"  data-wow-duration="1s">
                     <div class="content" uk-lightbox>
                         <img src="im/img/kids-item1.png" alt="">
                         <div class="overlay">
@@ -345,7 +379,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
                     <a href="">Book now</a>
                 </div>
-                <div class="col-md-4  align-self-end">
+                <div class="col-md-4  align-self-end wow slideInRight"  data-wow-duration="1s" >
                     <div class="content" uk-lightbox>
                         <img src="im/img/kids-item2.png" alt="">
                         <div class="overlay">
@@ -362,10 +396,10 @@
         </div>
     </section>
     <section class="feed">
-       <div class="sction-title">
-                <h2>All feed's</h2>
-            </div>
-        <div class="owl-carousel feed-slider">
+        <div class="sction-title">
+            <h2>Instagram feed's</h2>
+        </div>
+        <div class="owl-carousel feed-slider wow bounceInUp"  data-wow-duration="1s" >
             <div class="item">
                 <img src="im/img/fee-img1.jpg" alt="">
                 <div class="overlay">
@@ -419,14 +453,14 @@
             <img src="im/img/border-cyan-down.png" alt="">
         </div>
     </section>
-    
+
     <section class="contact">
         <div class="container">
-           <div class="sction-title">
+            <div class="sction-title">
                 <h2>Contact</h2>
             </div>
             <div class="row">
-                <div class="col-md-8 form">
+                <div class="col-md-8 form wow slideInLeft"  data-wow-duration="1s" >
                     <form action="">
                         <div class="row">
                             <div class="col-sm-6">
@@ -452,48 +486,48 @@
                         </div>
                         <div class="col-md-6 align-self-center">
                             <div class="social">
-                               <a href=""><i class="icofont-facebook"></i></a>
-                               <a href=""><i class="icofont-twitter"></i></a>
-                               <a href=""><i class="icofont-vimeo"></i></a>
-                               <a href=""><i class="icofont-instagram"></i></a>
+                                <a href=""><i class="icofont-facebook"></i></a>
+                                <a href=""><i class="icofont-twitter"></i></a>
+                                <a href=""><i class="icofont-vimeo"></i></a>
+                                <a href=""><i class="icofont-instagram"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 conact-details">
-                        <h4>Contact info</h4>
-                        <p>Contact 24/7 in out hotline Support  from any where in the world.</p>
-                        <p><span>Phone:</span> (00)-000-000-000</p>
-                        <p><span>Email:</span> laksd@info.com</p>
-                        <p><span>Address:</span> Your address, Any roade, New York</p>
-                    </div>
+                <div class="col-md-4 conact-details wow slideInRight"  data-wow-duration="1s">
+                    <h4>Contact info</h4>
+                    <p>Contact 24/7 in out hotline Support from any where in the world.</p>
+                    <p><span>Phone:</span> (00)-000-000-000</p>
+                    <p><span>Email:</span> laksd@info.com</p>
+                    <p><span>Address:</span> Your address, Any roade, New York</p>
+                </div>
             </div>
         </div>
         <div class="border-img">
             <img src="im/img/border-cyan-up.png" alt="">
         </div>
     </section>
-    
+
     <section class="map">
         <img src="im/img/map-img.png" alt="">
         <div class="circle-ripple"><i class="icofont-google-map"></i></div>
     </section>
     <footer>
-       <div class="border-img">
+        <div class="border-img">
             <img src="im/img/border-cyan-down.png" alt="">
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright &copy; 2020 SCREAM ride all right reserved.    </p>
+                    <p>Copyright &copy; 2020 SCREAM ride all right reserved. </p>
                 </div>
                 <div class="col-md-6 text-right">
-                    <p>Terms of Service  I  Privacy Policy</p>
+                    <p>Terms of Service I Privacy Policy</p>
                 </div>
             </div>
         </div>
     </footer>
-    
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -501,5 +535,33 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/active.js"></script>
+    <script>
+        
+new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function(){
+            
+         var owl = $('.slider-inner');
+
+  owl.owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3500,
+    nav: true,
+      smartSpeed:500,
+    margin: 10,
+      navText: ['<i class="icofont-simple-left"></i>', '<i class="icofont-simple-right"></i>'],
+  });
+
+  owl.on('changed.owl.carousel', function(event) {
+      var item = event.item.index - 2;     // Position of the current item
+      $('h1,h3,h4,a').removeClass('animated fadeInUp');
+     $('.owl-item').not('.cloned').eq(item).find('h1,h3,h4,a').addClass('animated fadeInUp');
+      });
+  });
+    </script>
 </body></html>
