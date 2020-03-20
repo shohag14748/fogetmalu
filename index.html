@@ -18,6 +18,12 @@
 </head>
 
 <body>
+   <div class="preloader">
+       <div class="img">
+           <img class ="img1" src="im/img/All-boat-drawings.png" alt="">
+           <img class ="img2" src="im/img/All-boat-drawings.png" alt="">
+       </div>
+   </div>
     <header>
         <div class="header-top">
             <div class="container displayf">
@@ -538,8 +544,14 @@
     <script src="js/wow.min.js"></script>
     <script src="js/active.js"></script>
     <script>
+    setTimeout(function(){
+      $('.preloader').fadeOut();
+    }, 1000);
+    
+    </script>
+    <script>
         
-new WOW().init();
+            new WOW().init();
     </script>
     <script>
         $(document).ready(function(){
